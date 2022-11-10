@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
 
-	"github.com/pandotoken/pando/common/hexutil"
-	trpc "github.com/pandotoken/pando/rpc"
+	"github.com/pandoprojects/pando/common/hexutil"
+	trpc "github.com/pandoprojects/pando/rpc"
 	rpcc "github.com/ybbus/jsonrpc"
 )
 

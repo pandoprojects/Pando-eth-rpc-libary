@@ -13,13 +13,13 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
-	"github.com/pandotoken/pando/cmd/pandocli/cmd/utils"
-	tcommon "github.com/pandotoken/pando/common"
-	"github.com/pandotoken/pando/crypto"
-	"github.com/pandotoken/pando/wallet"
-	ks "github.com/pandotoken/pando/wallet/softwallet/keystore"
-	wtypes "github.com/pandotoken/pando/wallet/types"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
+	"github.com/pandoprojects/pando/cmd/pandocli/cmd/utils"
+	tcommon "github.com/pandoprojects/pando/common"
+	"github.com/pandoprojects/pando/crypto"
+	"github.com/pandoprojects/pando/wallet"
+	ks "github.com/pandoprojects/pando/wallet/softwallet/keystore"
+	wtypes "github.com/pandoprojects/pando/wallet/types"
 )
 
 var cfgPath string

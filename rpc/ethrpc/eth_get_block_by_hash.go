@@ -9,13 +9,13 @@ import (
 	"strings"
 
 	"github.com/spf13/viper"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
-	tcommon "github.com/pandotoken/pando/common"
-	"github.com/pandotoken/pando/common/hexutil"
-	tcrypto "github.com/pandotoken/pando/crypto"
-	"github.com/pandotoken/pando/ledger/types"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
+	tcommon "github.com/pandoprojects/pando/common"
+	"github.com/pandoprojects/pando/common/hexutil"
+	tcrypto "github.com/pandoprojects/pando/crypto"
+	"github.com/pandoprojects/pando/ledger/types"
 
-	trpc "github.com/pandotoken/pando/rpc"
+	trpc "github.com/pandoprojects/pando/rpc"
 	rpcc "github.com/ybbus/jsonrpc"
 )
 

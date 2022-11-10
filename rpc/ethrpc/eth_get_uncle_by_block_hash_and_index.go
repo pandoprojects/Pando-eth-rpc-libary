@@ -3,7 +3,7 @@ package ethrpc
 import (
 	"context"
 
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
 )
 
 // ------------------------------- eth_getUncleByBlockHashAndIndex -----------------------------------

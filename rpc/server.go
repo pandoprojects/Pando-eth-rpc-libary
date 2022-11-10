@@ -8,10 +8,10 @@ import (
 
 	erpclib "github.com/ethereum/go-ethereum/rpc"
 	"github.com/spf13/viper"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/rpc/ethrpc"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/rpc/netrpc"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/rpc/web3rpc"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/rpc/ethrpc"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/rpc/netrpc"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/rpc/web3rpc"
 )
 
 var logger *log.Entry = log.WithFields(log.Fields{"prefix": "rpc"})

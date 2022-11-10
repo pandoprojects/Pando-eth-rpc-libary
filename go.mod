@@ -1,4 +1,4 @@
-module github.com/pandotoken/pando-eth-rpc-adaptor
+module github.com/pandoprojects/pando-eth-rpc-adaptor
 
 require (
 	github.com/aerospike/aerospike-client-go v1.36.0
@@ -50,9 +50,9 @@ require (
 	github.com/stretchr/objx v0.1.1 // indirect
 	//github.com/stretchr/testify v1.7.0
 	github.com/syndtr/goleveldb v1.0.1-0.20210305035536-64b5b1c73954
-	github.com/pandotoken/pando v0.0.0
-	github.com/pandotoken/pando/common v0.0.0
-	github.com/pandotoken/pando/rpc/lib/rpc-codec/jsonrpc2 v0.0.0
+	github.com/pandoprojects/pando v0.0.0
+	github.com/pandoprojects/pando/common v0.0.0
+	github.com/pandoprojects/pando/rpc/lib/rpc-codec/jsonrpc2 v0.0.0
 	github.com/wedeploy/gosocketio v0.0.7-beta
 	github.com/ybbus/jsonrpc v1.1.1
 	go.opencensus.io v0.22.4
@@ -63,11 +63,11 @@ require (
 	gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce
 )
 
-replace github.com/pandotoken/pando v0.0.0 => ../pando
+replace github.com/pandoprojects/pando v0.0.0 => ../pando
 
-replace github.com/pandotoken/pando/common v0.0.0 => ../pando/common
+replace github.com/pandoprojects/pando/common v0.0.0 => ../pando/common
 
-replace github.com/pandotoken/pando/rpc/lib/rpc-codec/jsonrpc2 v0.0.0 => ../pando/rpc/lib/rpc-codec/jsonrpc2/
+replace github.com/pandoprojects/pando/rpc/lib/rpc-codec/jsonrpc2 v0.0.0 => ../pando/rpc/lib/rpc-codec/jsonrpc2/
 
 replace github.com/ethereum/go-ethereum => github.com/ethereum/go-ethereum v1.9.9
 

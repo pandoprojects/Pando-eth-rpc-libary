@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/version"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/version"
 )
 
 // versionCmd represents the version command

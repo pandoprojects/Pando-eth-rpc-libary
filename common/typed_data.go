@@ -12,10 +12,10 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/pandotoken/pando/common"
-	"github.com/pandotoken/pando/common/hexutil"
-	"github.com/pandotoken/pando/common/math"
-	"github.com/pandotoken/pando/crypto"
+	"github.com/pandoprojects/pando/common"
+	"github.com/pandoprojects/pando/common/hexutil"
+	"github.com/pandoprojects/pando/common/math"
+	"github.com/pandoprojects/pando/crypto"
 )
 
 var typedDataReferenceTypeRegexp = regexp.MustCompile(`^[A-Z](\w*)(\[\])?$`)

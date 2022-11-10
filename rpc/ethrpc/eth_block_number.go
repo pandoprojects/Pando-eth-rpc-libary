@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
-	hexutil "github.com/pandotoken/pando/common/hexutil"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
+	hexutil "github.com/pandoprojects/pando/common/hexutil"
 )
 
 // ------------------------------- eth_blockNumber -----------------------------------

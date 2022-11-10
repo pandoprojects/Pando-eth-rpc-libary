@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
 	rpcc "github.com/ybbus/jsonrpc"
 
-	tcommon "github.com/pandotoken/pando/common"
-	"github.com/pandotoken/pando/ledger/types"
+	tcommon "github.com/pandoprojects/pando/common"
+	"github.com/pandoprojects/pando/ledger/types"
 
-	// "github.com/pandotoken/pando/ledger/types"
-	trpc "github.com/pandotoken/pando/rpc"
+	// "github.com/pandoprojects/pando/ledger/types"
+	trpc "github.com/pandoprojects/pando/rpc"
 )
 
 type TxTmp struct {

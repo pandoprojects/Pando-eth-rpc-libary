@@ -7,11 +7,11 @@ import (
 	"fmt"
 
 	"github.com/spf13/viper"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
-	tcommon "github.com/pandotoken/pando/common"
-	hexutil "github.com/pandotoken/pando/common/hexutil"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
+	tcommon "github.com/pandoprojects/pando/common"
+	hexutil "github.com/pandoprojects/pando/common/hexutil"
 
-	trpc "github.com/pandotoken/pando/rpc"
+	trpc "github.com/pandoprojects/pando/rpc"
 	rpcc "github.com/ybbus/jsonrpc"
 )
 

@@ -6,9 +6,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
-	"github.com/pandotoken/pando/ledger/types"
-	trpc "github.com/pandotoken/pando/rpc"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
+	"github.com/pandoprojects/pando/ledger/types"
+	trpc "github.com/pandoprojects/pando/rpc"
 	rpcc "github.com/ybbus/jsonrpc"
 )
 

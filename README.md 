@@ -7,10 +7,10 @@ The `Pando-eth-rpc-adaptor` project is aiming to provide an adaptor which transl
 First, install **Go ** and set environment variables `GOPATH` , `GOBIN`, and `PATH`. Next, clone the Pando blockchain repo and install Pando following the steps below:
 
 ```
-mkdir -p usr/local/go/src/github.com/pandotoken 
-cd usr/local/go/src/github.com/pandotoken
+mkdir -p usr/local/go/src/github.com/pandoprojects 
+cd usr/local/go/src/github.com/pandoprojects
 git clone https://
-cd usr/local/go/src/github.com/pandotoken/pando
+cd usr/local/go/src/github.com/pandoprojects/pando
 git checkout privatenetnet
 export GO111MODULE=on
 make install
@@ -19,7 +19,7 @@ make install
 Next, clone the `pando-eth-rpc-adaptor` repo:
 
 ```
-cd usr/local/go/src/github.com/pandotoken
+cd usr/local/go/src/github.com/pandoprojects
 git clone https://                              pando-eth-rpc-adaptor
 ```
 
@@ -29,8 +29,8 @@ git clone https://                              pando-eth-rpc-adaptor
 Following the steps below to build the `pando-eth-rpc-adaptor` binary and copy it into your `$GOPATH/bin`.
 
 ```
-echo 'export PANDO_RPC=/usr/local/go/src/github.com/pandotoken/pando-eth-rpc-adaptor' >> ~/.profile
-echo 'export PANDO_RPC=/usr/local/go/src/github.com/pandotoken/pando-eth-rpc-adaptor' >> ~/.bashrc
+echo 'export PANDO_RPC=/usr/local/go/src/github.com/pandoprojects/pando-eth-rpc-adaptor' >> ~/.profile
+echo 'export PANDO_RPC=/usr/local/go/src/github.com/pandoprojects/pando-eth-rpc-adaptor' >> ~/.bashrc
 source ~/.bashrc && source ~/.profile
 cd $PANDO_RPC
 export GO111MODULE=on

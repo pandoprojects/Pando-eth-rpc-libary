@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/spf13/viper"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
 
-	tcommon "github.com/pandotoken/pando/common"
-	hexutil "github.com/pandotoken/pando/common/hexutil"
-	"github.com/pandotoken/pando/ledger/types"
-	trpc "github.com/pandotoken/pando/rpc"
+	tcommon "github.com/pandoprojects/pando/common"
+	hexutil "github.com/pandoprojects/pando/common/hexutil"
+	"github.com/pandoprojects/pando/ledger/types"
+	trpc "github.com/pandoprojects/pando/rpc"
 	rpcc "github.com/ybbus/jsonrpc"
 )
 

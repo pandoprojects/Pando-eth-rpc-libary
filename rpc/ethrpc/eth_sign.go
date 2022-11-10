@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
-	"github.com/pandotoken/pando/common/hexutil"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
+	"github.com/pandoprojects/pando/common/hexutil"
 	// "golang.org/x/crypto/sha3"
 )
 

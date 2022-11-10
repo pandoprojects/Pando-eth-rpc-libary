@@ -13,11 +13,11 @@ import (
 	"github.com/spf13/viper"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/pandotoken/pando/cmd/pandocli/cmd/utils"
-	tcommon "github.com/pandotoken/pando/common"
-	"github.com/pandotoken/pando/crypto"
-	"github.com/pandotoken/pando/ledger/types"
-	trpc "github.com/pandotoken/pando/rpc"
+	"github.com/pandoprojects/pando/cmd/pandocli/cmd/utils"
+	tcommon "github.com/pandoprojects/pando/common"
+	"github.com/pandoprojects/pando/crypto"
+	"github.com/pandoprojects/pando/ledger/types"
+	trpc "github.com/pandoprojects/pando/rpc"
 	rpcc "github.com/ybbus/jsonrpc"
 )
 

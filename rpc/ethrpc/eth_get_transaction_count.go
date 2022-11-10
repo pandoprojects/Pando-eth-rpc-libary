@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"math"
 
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
-	hexutil "github.com/pandotoken/pando/common/hexutil"
-	"github.com/pandotoken/pando/ledger/types"
-	trpc "github.com/pandotoken/pando/rpc"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
+	hexutil "github.com/pandoprojects/pando/common/hexutil"
+	"github.com/pandoprojects/pando/ledger/types"
+	trpc "github.com/pandoprojects/pando/rpc"
 	rpcc "github.com/ybbus/jsonrpc"
 )
 

@@ -3,8 +3,8 @@ package ethrpc
 import (
 	"context"
 
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
-	trpc "github.com/pandotoken/pando/rpc"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
+	trpc "github.com/pandoprojects/pando/rpc"
 
 	rpcc "github.com/ybbus/jsonrpc"
 )

@@ -1,13 +1,13 @@
 package common
 
 import (
-	"github.com/pandotoken/pando/blockchain"
-	"github.com/pandotoken/pando/common"
-	tcommon "github.com/pandotoken/pando/common"
-	"github.com/pandotoken/pando/common/hexutil"
-	tcore "github.com/pandotoken/pando/core"
-	"github.com/pandotoken/pando/ledger/types"
-	trpc "github.com/pandotoken/pando/rpc"
+	"github.com/pandoprojects/pando/blockchain"
+	"github.com/pandoprojects/pando/common"
+	tcommon "github.com/pandoprojects/pando/common"
+	"github.com/pandoprojects/pando/common/hexutil"
+	tcore "github.com/pandoprojects/pando/core"
+	"github.com/pandoprojects/pando/ledger/types"
+	trpc "github.com/pandoprojects/pando/rpc"
 )
 
 type Bytes8 [8]byte

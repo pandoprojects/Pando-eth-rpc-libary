@@ -12,9 +12,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/pandotoken/pando-eth-rpc-adaptor/common"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/node"
-	"github.com/pandotoken/pando-eth-rpc-adaptor/version"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/common"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/node"
+	"github.com/pandoprojects/pando-eth-rpc-adaptor/version"
 )
 
 // startCmd represents the start command
