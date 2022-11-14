@@ -11,7 +11,6 @@ mkdir -p usr/local/go/src/github.com/pandoprojects
 cd usr/local/go/src/github.com/pandoprojects
 git clone https://
 cd usr/local/go/src/github.com/pandoprojects/pando
-git checkout privatenetnet
 export GO111MODULE=on
 make install
 ```
@@ -20,7 +19,7 @@ Next, clone the `pando-eth-rpc-adaptor` repo:
 
 ```
 cd usr/local/go/src/github.com/pandoprojects
-git clone https://                              pando-eth-rpc-adaptor
+git clone https://github.com/pandoprojects/Pando-eth-rpc-libary.git pando-eth-rpc-adaptor
 ```
 
 ## Build and Install
@@ -50,22 +49,22 @@ First, run a private testnet Pando node with its RPC port opened at 16888:
 
 ```
 cd $PANDO_HOME
-cp -r ./integration/pandonet ../pandonet
+cp -r ./integration/pandoproject ../pandoproject
 mkdir ~/.pandocli
-cp -r ./integration/pandonet/pandocli/* ~/.pandocli/
+cp -r ./integration/pandoproject/pandocli/* ~/.pandocli/
 chmod 700 ~/.pandocli/keys/encrypted
 
-pando start --config=../pandonet/node_eth_rpc 
+pando start --config=../pandoprojects/node_eth_rpc 
 choose a password 
 ```
 
 Then, open another terminal, create the config folder for the RPC adaptor
 
 ```
-mkdir -p ../pandonet/eth-rpc-adaptor
+mkdir -p ../pandoprojects/eth-rpc-adaptor
 ```
 
-Use your favorite editor to open file `../pandonet/eth-rpc-adaptor/config.yaml`, paste in the follow content, save and close the file:
+Use your favorite editor to open file `../pandoprojects/eth-rpc-adaptor/config.yaml`, paste in the follow content, save and close the file:
 
 ```
 pando
@@ -86,7 +85,7 @@ Then, launch the adaptor binary with the following command:
 
 ```
 cd $PANDO_RPC
-pando-eth-rpc-adaptor start --config=../pandonet/eth-rpc-adaptor
+pando-eth-rpc-adaptor start --config=../pandoproject/eth-rpc-adaptor
 ```
 
 The RPC adaptor will first create 10 test wallets, which will be useful for running tests with dev tools like Truffle, Hardhat. After the test wallets are created, the ETH RPC APIs will be ready for use.
@@ -139,3 +138,5 @@ curl -X POST -H 'Content-Type: application/json' --data '{"jsonrpc":"2.0","metho
 # Query account PTX balance (should return an integer which represents the current PTX balance in wei)
 curl -X POST -H 'Content-Type: application/json' --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x2E833968E5bB786Ae419c4d13189fB081Cc43bab", "latest"],"id":1}' http://localhost:18888/rpc
 ```
+
+Further detail of our smartcontract documentaiton please visit our [official Documentation site](https://docs.pandoproject.org/pandoproject/smart-contracts)
