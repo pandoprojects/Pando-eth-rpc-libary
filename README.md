@@ -85,7 +85,7 @@ Then, launch the adaptor binary with the following command:
 
 ```
 cd $PANDO_RPC
-pando-eth-rpc-adaptor start --config=../pandoproject/eth-rpc-adaptor
+pando-eth-rpc-adaptor start --config=../privatenet/eth-rpc-adaptor
 ```
 
 The RPC adaptor will first create 10 test wallets, which will be useful for running tests with dev tools like Truffle, Hardhat. After the test wallets are created, the ETH RPC APIs will be ready for use.
