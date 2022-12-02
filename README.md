@@ -49,22 +49,22 @@ First, run a private testnet Pando node with its RPC port opened at 16888:
 
 ```
 cd $PANDO_HOME
-cp -r ./integration/pandoproject ../pandoproject
+cp -r ./integration/privatenet ../privatenet
 mkdir ~/.pandocli
 cp -r ./integration/pandoproject/pandocli/* ~/.pandocli/
 chmod 700 ~/.pandocli/keys/encrypted
 
-pando start --config=../pandoprojects/node_eth_rpc 
+pando start --config=../privatenet/node_eth_rpc 
 choose a password 
 ```
 
 Then, open another terminal, create the config folder for the RPC adaptor
 
 ```
-mkdir -p ../pandoprojects/eth-rpc-adaptor
+mkdir -p ../privatenet/eth-rpc-adaptor
 ```
 
-Use your favorite editor to open file `../pandoprojects/eth-rpc-adaptor/config.yaml`, paste in the follow content, save and close the file:
+Use your favorite editor to open file `../privatenet/eth-rpc-adaptor/config.yaml`, paste in the follow content, save and close the file:
 
 ```
 pando
