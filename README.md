@@ -67,7 +67,7 @@ mkdir -p ../privatenet/eth-rpc-adaptor
 Use your favorite editor to open file `../privatenet/eth-rpc-adaptor/config.yaml`, paste in the follow content, save and close the file:
 
 ```
-pando
+pando:
   rpcEndpoint: "http://127.0.0.1:16888/rpc"
 rpc:
   enabled: true
